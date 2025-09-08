@@ -33,7 +33,7 @@ while true do
     task.wait(2)
 
     if island.PlacedBlocks:FindFirstChild("driver_seat_1") then
-        island.PlacedBlocks:FindFirstChild("driver_seat_1").PrimaryPart.CFrame = CFrame.new(1600, 1000, -410)
+        island.PlacedBlocks:FindFirstChild("driver_seat_1").PrimaryPart.CFrame = CFrame.new(53000, 1000, -410)
     end
 
     task.wait(4)
